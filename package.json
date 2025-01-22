@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "pdf bot kaspi",
+  "main": "index.js",
+	"type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "Erdana",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.5.1",
+    "form-data": "^4.0.1",
+    "node-fetch": "^3.3.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
